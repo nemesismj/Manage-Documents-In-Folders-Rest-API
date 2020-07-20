@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.rest.jwtdemo.JwtdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.852 s <<< FAILURE! - in com.rest.jwtdemo.JwtdemoApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityRepository': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract void com.rest.jwtdemo.Repository.AuthorityRepository.editAuth(java.lang.String,com.rest.jwtdemo.Model.User)! No property editAuth found for type Authority!
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract void com.rest.jwtdemo.Repository.AuthorityRepository.editAuth(java.lang.String,com.rest.jwtdemo.Model.User)! No property editAuth found for type Authority!
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property editAuth found for type Authority!
+
