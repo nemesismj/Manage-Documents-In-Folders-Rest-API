@@ -11,13 +11,15 @@ git clone https://github.com/nemesismj/RestAdminForDocumentAndFolder.git
 
 3)Необходимо запустить проект https://github.com/nemesismj/DocumentandFolders чтобы поднять MySQL базу со следующими учетными данными:
 
+Схема database
+
 username root 
 
 password root
 
-//учетные данные вы можете поменять если не хотите создавать новый в application.properties
+//Данные вы можете поменять если не хотите создавать новый в application.properties
 
-4)Прогнать скрипт schema.sql для того чтобы зарегать админа для реста
+4)Прогнать скрипт schema.sql для того чтобы зарегать админа для реста если вы не сделали в прошлом проекте
 
 5)Запускаем проект
 
